@@ -1,0 +1,39 @@
+modele,hyperparametres,accuracy_train_cv,accuracy_validation_cv,ecart_type_cv
+Ridge,{'classifier__alpha': 0.01},0.8579746220630199,0.8241545893719806,0.037491159778562363
+Ridge,{'classifier__alpha': 0.1},0.8579746220630199,0.8241545893719806,0.037491159778562363
+Ridge,{'classifier__alpha': 1},0.8579746220630199,0.8241545893719806,0.04003895510298968
+Ridge,{'classifier__alpha': 10},0.8557646773116387,0.8153623188405795,0.04349157069491078
+Ridge,{'classifier__alpha': 100},0.8502519579867647,0.8371980676328503,0.04704232632734689
+Ridge,{'classifier__alpha': 1000},0.810594377997693,0.8019323671497585,0.038619555227570934
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': 2, 'decisiontreeclassifier__min_samples_leaf': 1}",0.7863274846700261,0.7183574879227053,0.07475539082015044
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': 2, 'decisiontreeclassifier__min_samples_leaf': 5}",0.7863274846700261,0.7183574879227053,0.07475539082015044
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': 2, 'decisiontreeclassifier__min_samples_leaf': 10}",0.785228583571125,0.7228019323671497,0.0811826513795578
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': 3, 'decisiontreeclassifier__min_samples_leaf': 1}",0.8634509137271568,0.8152657004830918,0.04390940286668398
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': 3, 'decisiontreeclassifier__min_samples_leaf': 5}",0.8601420678768745,0.8152657004830918,0.04390940286668398
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': 3, 'decisiontreeclassifier__min_samples_leaf': 10}",0.8557464634812701,0.8152657004830918,0.050205858748769046
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': 5, 'decisiontreeclassifier__min_samples_leaf': 1}",0.9482545079230162,0.788599033816425,0.058717894038404154
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': 5, 'decisiontreeclassifier__min_samples_leaf': 5}",0.897589703114565,0.8237681159420289,0.050709820702279244
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': 5, 'decisiontreeclassifier__min_samples_leaf': 10}",0.859061380608342,0.8065700483091789,0.0513311792425052
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': None, 'decisiontreeclassifier__min_samples_leaf': 1}",1.0,0.7439613526570048,0.06538072229677334
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': None, 'decisiontreeclassifier__min_samples_leaf': 5}",0.8986886042134661,0.8237681159420289,0.050709820702279244
+Arbre,"{'decisiontreeclassifier__criterion': 'gini', 'decisiontreeclassifier__max_depth': None, 'decisiontreeclassifier__min_samples_leaf': 10}",0.859061380608342,0.8065700483091789,0.0513311792425052
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 2, 'decisiontreeclassifier__min_samples_leaf': 1}",0.7808329791755206,0.7183574879227053,0.07475539082015044
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 2, 'decisiontreeclassifier__min_samples_leaf': 5}",0.7808329791755206,0.7183574879227053,0.07475539082015044
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 2, 'decisiontreeclassifier__min_samples_leaf': 10}",0.7808329791755206,0.7183574879227053,0.07475539082015044
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 3, 'decisiontreeclassifier__min_samples_leaf': 1}",0.860148139153664,0.8152657004830918,0.0575391319841677
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 3, 'decisiontreeclassifier__min_samples_leaf': 5}",0.8601420678768745,0.8152657004830918,0.04819852060492952
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 3, 'decisiontreeclassifier__min_samples_leaf': 10}",0.8579442656790723,0.8197101449275361,0.055285966352843025
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 5, 'decisiontreeclassifier__min_samples_leaf': 1}",0.9383583267561167,0.7929468599033818,0.05891787122728122
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 5, 'decisiontreeclassifier__min_samples_leaf': 5}",0.897589703114565,0.8326570048309179,0.03289794774110983
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 5, 'decisiontreeclassifier__min_samples_leaf': 10}",0.8612591828061442,0.8110144927536233,0.05699205621209746
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': None, 'decisiontreeclassifier__min_samples_leaf': 1}",1.0,0.7619323671497584,0.05371007453635001
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': None, 'decisiontreeclassifier__min_samples_leaf': 5}",0.9008864064112683,0.823768115942029,0.04872324959872628
+Arbre,"{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': None, 'decisiontreeclassifier__min_samples_leaf': 10}",0.8612591828061442,0.8110144927536233,0.05699205621209746
+KNN,"{'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}",0.8821200898548964,0.8061835748792271,0.05125911194782145
+KNN,"{'classifier__n_neighbors': 3, 'classifier__weights': 'distance'}",1.0,0.8061835748792271,0.05125911194782145
+KNN,"{'classifier__n_neighbors': 5, 'classifier__weights': 'uniform'}",0.860148139153664,0.8195169082125604,0.031770548938886416
+KNN,"{'classifier__n_neighbors': 5, 'classifier__weights': 'distance'}",1.0,0.8195169082125604,0.031770548938886416
+KNN,"{'classifier__n_neighbors': 9, 'classifier__weights': 'uniform'}",0.8403132778823388,0.7973913043478261,0.0492730888932785
+KNN,"{'classifier__n_neighbors': 9, 'classifier__weights': 'distance'}",1.0,0.7973913043478261,0.0492730888932785
+KNN,"{'classifier__n_neighbors': 15, 'classifier__weights': 'uniform'}",0.8271264646955256,0.8019323671497585,0.047854868614790505
+KNN,"{'classifier__n_neighbors': 15, 'classifier__weights': 'distance'}",1.0,0.8019323671497585,0.047854868614790505
